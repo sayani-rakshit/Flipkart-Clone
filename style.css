@@ -1,0 +1,429 @@
+*{
+    margin: 0;
+    border:border-box;
+}
+body{
+    background-color: rgb(208, 218, 238);
+}
+.nav-bar{
+    height: 67px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.877);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search-bar{
+    height: 40px;
+    width: 500px;
+    /* background-color: transparent; */
+    background-color:rgb(229, 242, 248) ;
+    display: flex;
+    border-radius:4px ;
+
+    /* gap: 10px; */
+}
+.icon{
+    height: 40px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-top-left-radius: 4px; */
+    /* border-bottom-left-radius: 4px; */
+    
+}
+.search-bar input{
+    height: 35px;
+    width: 480px;
+    border:none;
+    background-color: rgb(229,242,248);
+    color: white;
+    font-size: 16px;
+    /* margin-left: 5px; */
+    /* margin-top: 5px; */
+}
+.login-bar{
+    display: flex;
+    height: 42px;
+    width: 112px;
+    margin-top: 15px;
+    /* margin: 8px; */
+}
+.login-bar:hover {
+    background-color: blue;
+}
+
+
+.icon2{
+    height: 24px;
+    width: 24px;
+    margin: 0px 0px 0px 0px;
+}
+
+/* .log-in button{
+    height: 24px;
+    width: 80px;
+    font: 16px;
+    color: black;
+    border: none;
+    transition: 0.5s;
+}
+.log-in button:hover{
+    color:white;
+    height: 24px;
+    background-color:blue;
+} */
+
+.log-incontainer{
+    background-color: white;
+    padding: 7px ;
+    font-size: 18px;
+    border-radius: 2px;
+    margin: 0px 10px;
+    position: relative;
+
+}
+.log-incontainer:hover{
+    background-color: blue;
+    
+}
+.log-incontainer a:hover{
+    color: white;
+}
+.log-incontainer a{
+    color: black;
+    font-weight: 550;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.login_menu{
+    position: absolute;
+    top:35px ;
+    /* left: 50px; */
+    height: 200px;
+    width: 250px;
+    /* width: 100%; */
+    background-color: white;
+    transform: translateX(-25%);
+    display: none;
+    padding-top: 15px ;
+
+    /* margin-left:- 20px; */
+}
+.login_menu_top a{
+    color: blue;
+}
+.log-incontainer:hover .login_menu{
+    display: block;
+}
+.login_menulist{
+    height: 100%;
+    max-width: 100%;
+    background-color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+.login_menu_top{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.login_menu_top p{
+    font-size: 18px;
+}
+hr{
+    margin-top: 5px;
+}
+.menu_nav_link a{
+display: flex ;
+font-size: 12px;
+color: black;
+padding-top: 10px;
+}
+.menu_nav_link a p{
+    padding-left: 10px;
+    font-size: 16px;
+}
+.flipkartpluszone p{
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 900;
+    padding-top: 5px;
+}
+
+
+.down-icon{
+    height: 12px;
+    width: 12px;
+    margin-top: 5px;
+    /* margin: 0px 0px 0px 0px; */
+}
+.cart-bar{
+    display: flex;
+    height: 24px;
+    width: 80px;
+}
+.cart-img{
+    height: 24px;
+    width: 24px;
+    margin: 0px 8px 0px 0px;
+}
+p{
+    font-size: 20px;
+    /* font-weight: 600 */
+}
+.brands-bar{
+    display: flex;
+    height: 24px;
+    width: 180px;
+}
+.box1{
+    margin-top: 10px;
+     height: 150px;
+     width: 1320px;
+     background-color: white;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     margin-left: 10px;
+    margin-right: 10px;
+}
+.box2{
+    margin-top: 10px;
+    height: 210px;
+    width: 1320px;
+    /* width: 100%; */
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    position: relative;
+     /* border: 2px solid red; */
+    
+    /* background-color: red; */
+}
+.main-img{
+    display: flex;
+
+    transition: 0.3s ease-in-out;
+}
+.main-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.prev-btn,
+.next-btn{
+    position: absolute;
+    top: 40%;
+    height: 60px;
+    font-size: 20px;
+    color: rgb(102, 98, 98);
+    background-color: white;
+    border:none;
+    padding: 5px 10px;
+
+    /* transform: translateY(-50%); */
+}
+.prev-btn
+{left: 0;}
+.next-btn{
+    right: 0;
+}
+
+.Electronics-list{
+    display: flex;
+    height: 400px ;
+    /* background-color: white; */
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: 2px solid red; */
+}
+.box3{
+    margin-top: 20px;
+    height: 350px;
+    width: 1000px;
+    /* border: 2px solid rgb(0, 255, 42); */
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.BestOfElectronics{
+    height: 50px;
+    width: 900px;
+    /* border: forestgreen; */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.Electronics-img{
+    display: flex;
+    /* background-image: white; */
+
+}
+
+.Monitor{
+    height: 250px;
+    width: 200px;
+    border: 2px solid rgb(139, 130, 130);
+    margin-left: 38px;
+
+}
+.Monitor p{
+    text-align: center;
+}
+h4{
+    text-align: center;
+    margin-top: 10px;
+}
+.Camera-img{
+    height: 250px;
+    width: 200px;
+    border: 2px solid rgb(182, 171, 171);
+    margin-left: 38px;
+}
+.Camera-img p{
+    text-align: center;
+}
+
+.Projector{
+    height: 250px;
+    width: 200px;
+    border: 2px solid rgb(163, 155, 155);
+    margin-left: 38px;
+}
+.Projector p{
+    text-align: center;
+}
+.Pendrive{
+    height: 250px;
+    width: 200px;
+    border: 2px solid rgb(163, 155, 155);
+    margin-left: 38px;
+}
+.Pendrive p{
+    text-align: center;
+}
+.box4{
+    height:350px ;
+    width: 300px;
+    /* border: 2px solid blue; */
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+}
+.box4 img{
+    margin-top: 5px;
+}
+.box5{
+    height: 350px;
+    width: 1320px;
+    background-color: white;
+    /* border: 2px solid black; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Beuty{
+text-align: left;
+height: 60px;
+margin-left: 40px;
+position: relative;
+top: 20px;
+/* margin-top: 30px; */
+
+}
+.text{
+    margin-top: 20px;
+    background-color: white;
+    /* height: 300px; */
+    width: 1350px;
+    /* border:2px solid red; */
+    /* margin-left: 20px; */
+}
+._2j7a4R{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+._2j7a4R a{
+color: rgb(139, 126, 126);
+text-decoration: none;
+margin-left: 5px;
+font-size: 12px;
+}
+
+
+._2j7a4R a::after{
+    content: "|";
+    color: black;
+    font-weight: 1200;
+    margin-left: 5px;
+}
+._2j7a4R span{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(139, 126, 126);
+    /* margin-bottom: 15px; */
+}
+._15e_hF{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: rgb(139, 126, 126);
+}
+._39odR7 {
+    margin-left: 30px;
+    margin-top: 30px;
+    color: rgb(139,126,126);
+}
+._39odR7 h1{
+    font-size: 18px;
+}
+
+._39odR7 h2{
+    font-size: 15px;
+}
+.footer{
+    height: 250px;
+    width: 1350px;
+    background-color: black;
+    color: white;
+    display: flex;
+    /* margin-top: 20px; */
+
+    
+}
+.row{
+    height:180px ;
+    width: 700px;
+    /* border-right: rgb(170, 161, 161); */
+    display: flex;
+    border-right: 2px solid rgb(173, 157, 157);
+    margin-left: 20px;
+
+    margin-top: 30px;
+    /* margin: 20px 20px 20px 20px; */
+    /* flex-direction: column; */
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* border: 2px solid white; */
+}
+.column a{
+    font-size: 14px;
+    font-weight: 600;
+}
+.column p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(173, 157, 157);
+}
+.telephone{
+    display: flex;
+}
+.telephone p{
+    color: blue;
+}
+
